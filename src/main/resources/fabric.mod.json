@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "rhapsody",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Rhapsody (Hypixel Skyblock Addon for LegacyFabric)",
+  "description": "An addon for 1.8.9 LegacyFabric, for use on Hypixel Skyblock!",
   "authors": [
-    "Me!"
+    "cocona20xx"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "Discord (though the Fabric servers, look for cocona20xx)",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
@@ -18,8 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "net.fabricmc.rhapsodylegacy.Rhapsody"
     ]
   },
   "mixins": [
